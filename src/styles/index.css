@@ -70,8 +70,8 @@
     animation: glow 1.5s linear infinite alternate;
   }
   
-  /* @keyframes glow{
+  @keyframes glow{
     to {
       box-shadow: 0px 0px 30px 20px #535FED;
     }
-  } */
+  }
