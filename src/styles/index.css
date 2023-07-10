@@ -10,3 +10,68 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.paloSemaforo{
+
+    width: 100px; 
+    height: 200px; 
+    background-color: black; 
+    margin-left: 50%;
+    border:1px ;
+    border-color:brown;
+    border-style: solid;
+    
+}
+
+.cuerpoSemaforo{
+    border: 3px;
+    border-color: brown;
+    border-style: groove;
+    width: 300px; 
+    height: 600px; 
+    background-color: black; 
+    margin-left: 42%;
+}
+
+.lightSemaforo1{
+    border-radius: 75%;
+    background-color: red;
+    width: 150px; 
+    height: 150px;
+    margin-left: 25% ;
+    margin-top: 40px;
+}
+
+.lightSemaforo2{
+    border-radius: 75%;
+    background-color: #FFA500;
+    width: 150px; 
+    height: 150px;
+    margin-left: 25% ;
+    margin-top: 40px;
+}
+
+.lightSemaforo3{
+    border-radius: 75%;
+    background-color: green;
+    width: 150px; 
+    height: 150px;
+    margin-left: 25% ;
+    margin-top: 40px;
+}
+
+
+
+  .glow {
+    
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px 4px #747DE8;
+    animation: glow 1.5s linear infinite alternate;
+  }
+  
+  /* @keyframes glow{
+    to {
+      box-shadow: 0px 0px 30px 20px #535FED;
+    }
+  } */
